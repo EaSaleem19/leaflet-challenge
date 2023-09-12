@@ -1,0 +1,30 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.legend{
+  background-color: white;
+  padding: 15px;
+}
+
+.colorSpan{
+  height: 100%;
+  min-width: 20px;
+  width: 20px;
+  min-height: 20px;
+  display: inline-block;
+  margin-right:15px
+}
+
+.legend .colorP{
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
